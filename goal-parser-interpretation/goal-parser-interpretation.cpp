@@ -2,6 +2,7 @@ class Solution {
 public:
     string interpret(string command) {
         
+        //while storing any number of characters in string we will use "DOUBLE QUOTES"
         string ans;
         string gans = "G";
         string oans = "o";
@@ -11,7 +12,7 @@ public:
         for(int i =0;i<command.size();i++)
            {
             if(command[i]=='G'){
-                ans += command[i];
+                ans += command[i];           // //whereas while comparing the elements of a string we will use 'SINGLE QUOTES'
             }
             
             if(command[i]=='(' && command[i+1]==')' ){
