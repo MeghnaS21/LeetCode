@@ -1,6 +1,7 @@
 class Solution {
 public:
     string mergeAlternately(string word1, string word2) {
+        //THIS PROBLEM HAS MADE ME REALISE THAT STRING IS NOTHING BUT AN ARRAY TO TYPE STRING IN A DIFFERENT FORMAT
         string ans ; //create an empty string
         int i=0;  //pointer one to traverse first string
         int j =0; //pointer two to traverse the second string
